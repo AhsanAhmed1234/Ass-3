@@ -1,0 +1,32 @@
+.filters {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+#movieList {
+  padding: 0;
+}
+
+.movieItem {
+  transition: all 0.3s;
+  cursor: pointer;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  gap: 1.2rem;
+
+  box-shadow: 0 5px 10px rgb(226, 226, 226);
+}
+.movieItem:hover {
+    box-shadow: 0 5px 20px rgb(163, 163, 163);
+}
+
+.movieItem img {
+    transition: all 0.2s 0.4s ease-in; 
+    width: 12rem;
+}
+.movieItem img:hover{
+    width: 40rem;
+    box-shadow: 0 5px 20px rgb(66, 66, 66);
+}
+
